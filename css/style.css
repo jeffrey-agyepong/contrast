@@ -1,7 +1,8 @@
 body {
-  background: #f0f8ff;
+  background: #778d9f;
   color: #112a46;
 }
+
 article {
   width: 1400px;
   margin: 0px auto;
@@ -19,11 +20,14 @@ h2,
 h3 {
   text-align: center;
 }
+
 h1 {
-  font-size: 80px;
+  font-size: 100px;
   color: #0000ff;
   text-align: center;
   font-variant: small-caps;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 h2 {
@@ -38,6 +42,7 @@ h3 {
   font-size: 30px;
   text-align: center;
 }
+
 h4 {
   padding: 20px;
 }
@@ -56,6 +61,8 @@ figcaption {
   text-align: center;
 }
 
+li,
 p {
   padding: 20px;
+  font-size: 25px;
 }
